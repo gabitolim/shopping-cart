@@ -6,13 +6,13 @@ import Slider from "react-slick";
 
 // Assume you have an array of image URLs for the carousel
 const carouselImages = [
-	"/src/remera1.jpg",
-	"/src/short1.jpg",
-	"/src/remera2.jpg",
-	"/src/pants.jpg",
-	"/src/hoodie2.jpg",
-	"/src/cap.jpg",
-	"/src/hoodie.jpg",
+	"/public/remera1.jpg",
+	"/public/short1.jpg",
+	"/public/remera2.jpg",
+	"/public/pants.jpg",
+	"/public/hoodie2.jpg",
+	"/public/cap.jpg",
+	"/public/hoodie.jpg",
 	// Add more image paths as needed for your carousel
 ];
 
