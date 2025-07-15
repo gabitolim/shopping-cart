@@ -19,7 +19,7 @@ export const CartPage = () => {
 		Swal.fire({
 			icon: "success",
 			title: "Purchase has been made successfully!",
-			html: `<p> Your purchase: </p> <pre>${productsPurchased}</pre>`,
+			html: `<p> Your purchase: </p> <pre>${productsPurchased}</pre> <p> Total: ${calculateTotal()}</p>`,
 		});
 	};
 	return (
@@ -37,7 +37,7 @@ export const CartPage = () => {
 					{shopList.map((product) => (
 						<tr key={product.key}>
 							<th scope="row">{product.title}</th>
-							<td>{product.price}</td>
+							<td>${product.price}</td>
 							<td>
 								<button
 									className="btn btn-outline-primary"

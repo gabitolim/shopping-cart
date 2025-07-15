@@ -1,0 +1,10 @@
+.app-wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+div.container {
+	flex-grow: 1;
+	min-height: 0%;
+}

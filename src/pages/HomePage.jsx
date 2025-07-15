@@ -56,6 +56,7 @@ export const HomePage = () => {
 	return (
 		<>
 			<Box
+				className="contents"
 				sx={{
 					width: "100%",
 					display: "flex",
