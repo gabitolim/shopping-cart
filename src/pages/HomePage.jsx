@@ -6,13 +6,13 @@ import Slider from "react-slick";
 
 // Assume you have an array of image URLs for the carousel
 const carouselImages = [
-	"/public/remera1.jpg",
-	"/public/short1.jpg",
-	"/public/remera2.jpg",
-	"/public/pants.jpg",
-	"/public/hoodie2.jpg",
-	"/public/cap.jpg",
-	"/public/hoodie.jpg",
+	"/remera1.jpg",
+	"/short1.jpg",
+	"/remera2.jpg",
+	"/pants.jpg",
+	"/hoodie2.jpg",
+	"/cap.jpg",
+	"/hoodie.jpg",
 	// Add more image paths as needed for your carousel
 ];
 
@@ -70,7 +70,7 @@ export const HomePage = () => {
 				</div>
 
 				<img
-					src="/src/assets/homepage.jpg"
+					src="/homepage.jpg"
 					style={{
 						maxWidth: "100%",
 						height: "auto",
